@@ -1,0 +1,12 @@
+entry_id,task_id,language,variant,repeat,passed,wall_s,tokens_input,tokens_prompt_total,tokens_output,network_error,infra_error,timed_out
+1,T01,Python,agent-a,1,true,10.0,100,200,50,false,false,false
+2,T02,Java,agent-a,1,false,20.0,200,400,100,false,false,false
+3,T03,TypeScript,agent-a,1,true,30.0,300,600,150,false,false,false
+4,T04,Python,agent-a,2,true,40.0,,,,false,false,false
+5,T01,Python,agent-a,2,false,99.0,900,900,900,false,false,true
+6,T01,Python,agent-b,1,true,20.0,120,240,60,false,false,false
+7,T02,Java,agent-b,1,true,10.0,100,200,50,false,false,false
+8,T03,TypeScript,agent-b,1,false,60.0,,500,200,false,false,false
+9,T05,Python,agent-b,2,true,5.0,30,60,15,false,false,false
+10,T05,Python,agent-b,1,true,8.0,40,80,20,false,true,false
+11,T06,Java,agent-b,0,true,1.0,10,20,5,true,false,false

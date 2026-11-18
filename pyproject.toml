@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "harness-lab"
+version = "0.1.0"
+description = "Auditable evaluation of coding-agent run observations"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+
+[project.scripts]
+harness-lab = "harness_lab.cli:main"
+
+[dependency-groups]
+dev = ["ruff>=0.17,<0.18"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["harness_lab"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

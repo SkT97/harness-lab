@@ -1,0 +1,368 @@
+{
+  "compare": {
+    "comparable": true,
+    "left": "agent-a",
+    "notes": [
+      "Measures completed runs only; excluded rows never enter pairing or denominators.",
+      "Missing token values stay missing: each metric keeps its own denominator; nothing is imputed."
+    ],
+    "paired_metrics": {
+      "tokens_input": {
+        "comparable": true,
+        "denominator": 2,
+        "mean_left": 150.0,
+        "mean_right": 110.0,
+        "pairs_available": 3,
+        "pairs_missing_observation": 1,
+        "pairs_used": 2,
+        "ratio_left_over_right": 1.3636363636363635,
+        "reason": null,
+        "sum_left": 300.0,
+        "sum_right": 220.0
+      },
+      "tokens_output": {
+        "comparable": true,
+        "denominator": 3,
+        "mean_left": 100.0,
+        "mean_right": 103.33333333333333,
+        "pairs_available": 3,
+        "pairs_missing_observation": 0,
+        "pairs_used": 3,
+        "ratio_left_over_right": 0.967741935483871,
+        "reason": null,
+        "sum_left": 300.0,
+        "sum_right": 310.0
+      },
+      "tokens_prompt_total": {
+        "comparable": true,
+        "denominator": 3,
+        "mean_left": 400.0,
+        "mean_right": 313.3333333333333,
+        "pairs_available": 3,
+        "pairs_missing_observation": 0,
+        "pairs_used": 3,
+        "ratio_left_over_right": 1.2765957446808511,
+        "reason": null,
+        "sum_left": 1200.0,
+        "sum_right": 940.0
+      },
+      "wall_s": {
+        "comparable": true,
+        "denominator": 3,
+        "mean_left": 20.0,
+        "mean_right": 30.0,
+        "pairs_available": 3,
+        "pairs_missing_observation": 0,
+        "pairs_used": 3,
+        "ratio_left_over_right": 0.6666666666666666,
+        "reason": null,
+        "sum_left": 60.0,
+        "sum_right": 90.0
+      }
+    },
+    "paired_success": {
+      "both_passed": 1,
+      "left_failed": 1,
+      "left_pass_fraction": 0.6666666666666666,
+      "left_passed": 2,
+      "neither_passed": 0,
+      "only_left_passed": 1,
+      "only_right_passed": 1,
+      "pairs": 3,
+      "right_failed": 1,
+      "right_pass_fraction": 0.6666666666666666,
+      "right_passed": 2
+    },
+    "pairing": {
+      "left_unpaired_completed": 1,
+      "method": "exact (task_id, repeat) pairing; duplicates with a counterpart are rejected, never resolved by fastest/best",
+      "pairs": 3,
+      "right_unpaired_completed": 1
+    },
+    "pairs": [
+      {
+        "language": "Python",
+        "left": {
+          "passed": true,
+          "tokens_input": 100,
+          "tokens_output": 50,
+          "tokens_prompt_total": 200,
+          "wall_s": 10.0
+        },
+        "repeat": 1,
+        "right": {
+          "passed": true,
+          "tokens_input": 120,
+          "tokens_output": 60,
+          "tokens_prompt_total": 240,
+          "wall_s": 20.0
+        },
+        "task_id": "T01"
+      },
+      {
+        "language": "Java",
+        "left": {
+          "passed": false,
+          "tokens_input": 200,
+          "tokens_output": 100,
+          "tokens_prompt_total": 400,
+          "wall_s": 20.0
+        },
+        "repeat": 1,
+        "right": {
+          "passed": true,
+          "tokens_input": 100,
+          "tokens_output": 50,
+          "tokens_prompt_total": 200,
+          "wall_s": 10.0
+        },
+        "task_id": "T02"
+      },
+      {
+        "language": "TypeScript",
+        "left": {
+          "passed": true,
+          "tokens_input": 300,
+          "tokens_output": 150,
+          "tokens_prompt_total": 600,
+          "wall_s": 30.0
+        },
+        "repeat": 1,
+        "right": {
+          "passed": false,
+          "tokens_input": null,
+          "tokens_output": 200,
+          "tokens_prompt_total": 500,
+          "wall_s": 60.0
+        },
+        "task_id": "T03"
+      }
+    ],
+    "right": "agent-b",
+    "rows": {
+      "left": {
+        "rows_completed": 4,
+        "rows_excluded": 1,
+        "rows_total": 5
+      },
+      "right": {
+        "rows_completed": 4,
+        "rows_excluded": 2,
+        "rows_total": 6
+      }
+    },
+    "schema": "harness-lab/compare/1",
+    "task_coverage": {
+      "identical_task_sets": false,
+      "left_only_tasks_completed": [
+        "T04"
+      ],
+      "right_only_tasks_completed": [
+        "T05"
+      ],
+      "shared_tasks_completed": [
+        "T01",
+        "T02",
+        "T03"
+      ]
+    },
+    "warnings": [
+      "Small sample: only 3 paired cells; treat the numbers as unstable",
+      "unshared completed tasks (left-only: ['T04'], right-only: ['T05']); pairing covers shared cells only",
+      "No universal winner: no aggregate score or global ranking is computed"
+    ]
+  },
+  "notice": "Synthetic evaluator check; not model performance.",
+  "summarize": {
+    "counts": {
+      "exclusions": {
+        "any_flag": 3,
+        "infra_error": 1,
+        "multiple_flags": 0,
+        "network_error": 1,
+        "timed_out": 1
+      },
+      "rows_completed": 8,
+      "rows_excluded": 3,
+      "rows_total": 11,
+      "tasks_completed": 5,
+      "tasks_total": 6,
+      "variants_total": 2
+    },
+    "filter": {
+      "excludes": [
+        "network_error",
+        "infra_error",
+        "timed_out"
+      ],
+      "measures": "completed runs only (not reliability, not retry quality)"
+    },
+    "languages": {
+      "Java": {
+        "rows_completed": 2,
+        "rows_total": 3,
+        "tasks_completed": 1,
+        "variants": [
+          "agent-a",
+          "agent-b"
+        ]
+      },
+      "Python": {
+        "rows_completed": 4,
+        "rows_total": 6,
+        "tasks_completed": 3,
+        "variants": [
+          "agent-a",
+          "agent-b"
+        ]
+      },
+      "TypeScript": {
+        "rows_completed": 2,
+        "rows_total": 2,
+        "tasks_completed": 1,
+        "variants": [
+          "agent-a",
+          "agent-b"
+        ]
+      }
+    },
+    "notes": [
+      "Scores are raw pass/fail on completed runs; no relaxed or corrected score is computed.",
+      "Missing token values stay missing: they are counted, never imputed as zero."
+    ],
+    "overall": {
+      "failed": 2,
+      "pass_fraction": 0.75,
+      "passed": 6,
+      "tokens_input": {
+        "missing": 2,
+        "n": 6,
+        "p50": 110.0,
+        "p95": 275.0
+      },
+      "tokens_output": {
+        "missing": 1,
+        "n": 7,
+        "p50": 60.0,
+        "p95": 185.0
+      },
+      "tokens_prompt_total": {
+        "missing": 1,
+        "n": 7,
+        "p50": 240.0,
+        "p95": 570.0
+      },
+      "wall_s": {
+        "missing": 0,
+        "n": 8,
+        "p50": 20.0,
+        "p95": 53.00000000000001
+      }
+    },
+    "percentile_method": "R type 7 (linear interpolation)",
+    "ranking": {
+      "allowed": false,
+      "ranking": null,
+      "reason": "unequal task sets across variants; no global ranking is computed"
+    },
+    "schema": "harness-lab/summarize/1",
+    "task_sets": {
+      "common_tasks_completed": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "identical_across_variants": false
+    },
+    "variants": {
+      "agent-a": {
+        "duplicate_cells": 0,
+        "failed": 1,
+        "pass_fraction": 0.75,
+        "passed": 3,
+        "relaxed_score": null,
+        "rows_completed": 4,
+        "rows_excluded": 1,
+        "rows_total": 5,
+        "samples_completed": 4,
+        "tasks_completed": [
+          "T01",
+          "T02",
+          "T03",
+          "T04"
+        ],
+        "tokens_input": {
+          "missing": 1,
+          "n": 3,
+          "p50": 200.0,
+          "p95": 290.0
+        },
+        "tokens_output": {
+          "missing": 1,
+          "n": 3,
+          "p50": 100.0,
+          "p95": 145.0
+        },
+        "tokens_prompt_total": {
+          "missing": 1,
+          "n": 3,
+          "p50": 400.0,
+          "p95": 580.0
+        },
+        "unique_tasks_completed": 4,
+        "wall_s": {
+          "missing": 0,
+          "n": 4,
+          "p50": 25.0,
+          "p95": 38.5
+        }
+      },
+      "agent-b": {
+        "duplicate_cells": 0,
+        "failed": 1,
+        "pass_fraction": 0.75,
+        "passed": 3,
+        "relaxed_score": null,
+        "rows_completed": 4,
+        "rows_excluded": 2,
+        "rows_total": 6,
+        "samples_completed": 4,
+        "tasks_completed": [
+          "T01",
+          "T02",
+          "T03",
+          "T05"
+        ],
+        "tokens_input": {
+          "missing": 1,
+          "n": 3,
+          "p50": 100.0,
+          "p95": 118.0
+        },
+        "tokens_output": {
+          "missing": 0,
+          "n": 4,
+          "p50": 55.0,
+          "p95": 179.0
+        },
+        "tokens_prompt_total": {
+          "missing": 0,
+          "n": 4,
+          "p50": 220.0,
+          "p95": 461.0
+        },
+        "unique_tasks_completed": 4,
+        "wall_s": {
+          "missing": 0,
+          "n": 4,
+          "p50": 15.0,
+          "p95": 54.0
+        }
+      }
+    },
+    "warnings": [
+      "unequal task sets across variants; no global ranking is computed"
+    ]
+  },
+  "synthetic": true
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="102" viewBox="0 0 540 102" role="img" aria-labelledby="title desc">
+  <title id="title">The spare row</title>
+  <desc id="desc">An extra row slides out of a pair and the report remains unchanged.</desc>
+  <style>
+    .label { font: 13px system-ui,sans-serif; fill: #f7eafc; }
+    .code { font: 11px ui-monospace,monospace; fill: #ffc88b; }
+    .track { fill: none; stroke: #9166a0; stroke-width: 1.5; }
+    .outlier{animation:slide 5.3s ease-in-out infinite alternate}.stamp{animation:stamp 5.3s ease-in-out infinite alternate}@keyframes slide{0%,20%{transform:translateX(0)}74%,100%{transform:translateX(82px)}}@keyframes stamp{0%,55%{opacity:.32}80%,100%{opacity:1}}
+    @media (prefers-reduced-motion: reduce) { .motion { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="538" height="100" rx="12" fill="#241831" stroke="#583d69"/>
+  <text class="label" x="28" y="30">The spare row</text>
+    <rect x="31" y="43" width="130" height="22" rx="5" fill="#443053" stroke="#b477c1"/>
+    <rect x="31" y="70" width="130" height="22" rx="5" fill="#443053" stroke="#b477c1"/>
+    <text class="code" x="44" y="58">A / task 42</text><text class="code" x="44" y="85">B / task 42</text>
+    <g transform="translate(178 55)"><g class="motion outlier"><rect width="103" height="24" rx="5" fill="#624047" stroke="#ffc88b"/><text class="code" x="13" y="16">row #97</text></g></g>
+    <text class="motion stamp code" x="387" y="72">NO MATCH FOUND</text>
+</svg>
