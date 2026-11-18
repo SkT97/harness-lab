@@ -9,6 +9,7 @@ from pathlib import Path
 
 from .compare import CompareError, compare
 from .demo import DEMO_CSV_TEXT, demo_report, self_check
+from .harbor import HarborError, harbor_report
 from .model import ValidationError, load_csv
 from .summarize import summarize
 
@@ -25,6 +26,11 @@ def main(argv: list[str] | None = None) -> int:
             command.add_argument("--right", required=True)
     demo = commands.add_parser("demo")
     demo.add_argument("--csv-out")
+    harbor = commands.add_parser("harbor-report")
+    harbor.add_argument("--job-dir", type=Path, required=True)
+    harbor.add_argument("--manifest", type=Path)
+    harbor.add_argument("--reward-key", default="reward")
+    harbor.add_argument("--json-out")
     args = parser.parse_args(argv)
     try:
         if args.command == "demo":
@@ -36,6 +42,8 @@ def main(argv: list[str] | None = None) -> int:
             if args.csv_out:
                 Path(args.csv_out).write_text(text, encoding="utf-8")
             print("self-check: OK (synthetic data)", file=sys.stderr)
+        elif args.command == "harbor-report":
+            payload = harbor_report(args.job_dir, args.manifest, args.reward_key)
         else:
             rows = load_csv(args.input)
             payload = (
@@ -50,7 +58,7 @@ def main(argv: list[str] | None = None) -> int:
             Path(args.json_out).write_text(output, encoding="utf-8")
         sys.stdout.write(output)
         return 0
-    except (OSError, ValidationError, CompareError, RuntimeError) as exc:
+    except (OSError, ValidationError, CompareError, HarborError, RuntimeError) as exc:
         print(f"harness-lab: {exc}", file=sys.stderr)
         return 1
 

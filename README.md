@@ -55,6 +55,57 @@ A ratio uses sums over the same available paired observations, with right-side z
   <img src="assets/wave.svg" alt="Section divider">
 </picture>
 
+### Import a Harbor job
+
+`harbor-report` reads trial result JSON from
+[Harbor v0.26.0](https://github.com/harbor-framework/harbor/blob/v0.26.0/src/harbor/models/trial/result.py).
+It looks for `result.json` in each immediate trial directory. The optional
+manifest gives the intended trial set, task checksums and configuration names.
+
+```sh
+uv run --locked harness-lab harbor-report --job-dir jobs/example --manifest plan.json
+```
+
+The offline example generates a four-trial plan with three observed trials,
+two evaluable binary rewards and one success. It reports **1/2** success on
+evaluable trials, **1/4** on the plan and **3/4** observed coverage.
+
+```sh
+uv run --locked python -m examples.harbor_demo
+```
+
+Without a plan, the planned counts and rates are null. Use `--reward-key` for
+a different top-level verifier reward. Fractional and missing rewards remain
+visible. Trials with exceptions or invalid rewards stay outside the quality
+denominator. The adapter exports selected metadata and omits raw logs, URLs
+and technical exception messages. Review your task and model labels before
+publishing a report.
+
+The [example](examples/harbor_demo.py) shows the manifest format. Its
+`trials` list maps each Harbor `trial_name` to both task identity fields,
+a configuration label and its repeat. Populate those names from the job
+plan or scheduler when measuring coverage.
+
+### Compare a local hx run
+
+The [cross-project example](examples/hx_comparison.py) runs the same fixed edit
+and verification command on synthetic Python, Java and TypeScript tasks. It
+compares running the commands directly with using hx to verify and accept the
+patch. Install Git, a JDK with Java source-file support and a Node.js version
+with built-in TypeScript stripping. Then run from this checkout:
+
+```sh
+uv run --locked python -m examples.hx_comparison --hx-src ../hx/src --out example-results
+```
+
+The comparison emits a CSV and the usual paired JSON report. Wall time
+includes hx cloning and explicit acceptance for the hx variant. Each repo is
+initialized outside the timed section. Runs use a deterministic script in
+place of a model, so token fields are empty. This measures local workflow
+overhead and checks that both paths deliver the fix. In one Windows run on
+November 18, 2026, both paths passed all nine pairs. The mean was 0.425 s
+for direct execution and 3.371 s for hx, including its clone and acceptance.
+
 ## Verification
 
 The repository includes [synthetic observations](examples/synthetic_runs.csv) for a reproducible walkthrough of validation, exclusions, and matching by task and repeat.
