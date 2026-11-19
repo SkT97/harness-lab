@@ -10,7 +10,12 @@ PERCENTILE_METHOD = "R type 7 (linear interpolation)"
 
 
 def percentile(values: list[float], p: float) -> float | None:
-    """The p-th percentile of non-missing values, or None when there are none."""
+    """The p-th percentile of the given values, or None when there are none.
+
+    Every value must be a finite number: this function filters nothing, so
+    sparse input goes through ``distribution``, which drops missing values and
+    counts them before calling it.
+    """
     if not 0 <= p <= 100:
         raise ValueError(f"percentile must be in [0, 100], got {p}")
     ordered = sorted(values)

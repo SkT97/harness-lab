@@ -168,11 +168,21 @@ def harbor_report(job_dir: Path, manifest: Path | None, reward_key: str) -> dict
     """Use the planned denominator only when declared by the caller."""
     campaign, planned = _load_plan(manifest) if manifest is not None else (None, {})
     observed = {}
+    skipped_links = 0
     for directory in sorted(job_dir.iterdir()):
-        if directory.is_symlink() or directory.is_junction() or not directory.is_dir():
+        # Linked trials are never read: a link can reach data outside the job
+        # directory. Counting them keeps the denominator auditable, and only the
+        # count reaches the report, never a path or a name.
+        if directory.is_symlink() or directory.is_junction():
+            skipped_links += 1
+            continue
+        if not directory.is_dir():
             continue
         path = directory / "result.json"
-        if path.is_symlink() or not path.is_file():
+        if path.is_symlink():
+            skipped_links += 1
+            continue
+        if not path.is_file():
             continue
         trial = _trial(path, reward_key)
         name = trial["trial_name"]
@@ -212,6 +222,7 @@ def harbor_report(job_dir: Path, manifest: Path | None, reward_key: str) -> dict
             "non_binary": sum(
                 row["reward"] is not None and row["reward"] not in (0, 1) for row in trials
             ),
+            "skipped_links": skipped_links,
         },
         "rates": {
             "success_per_planned": passed / len(planned) if planned else None,

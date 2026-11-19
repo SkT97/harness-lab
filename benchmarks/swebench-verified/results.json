@@ -1,0 +1,1672 @@
+{
+  "adjacent": [
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.024166650015572378,
+        0.024166650015572385
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 18,
+      "only_right": 18,
+      "p": 1.0,
+      "resolved_left": 396,
+      "resolved_right": 396,
+      "right": "20251215_livesweagent_claude-opus-4-5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.004,
+      "interval": [
+        -0.028252650724600425,
+        0.03627933368558439
+      ],
+      "left": "20251215_livesweagent_claude-opus-4-5",
+      "only_left": 34,
+      "only_right": 32,
+      "p": 0.9021585000966993,
+      "resolved_left": 396,
+      "resolved_right": 394,
+      "right": "20250928_trae_doubao_seed_code",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.012,
+      "interval": [
+        -0.020670415833866265,
+        0.044737496119276216
+      ],
+      "left": "20250928_trae_doubao_seed_code",
+      "only_left": 37,
+      "only_right": 31,
+      "p": 0.5446122234192591,
+      "resolved_left": 394,
+      "resolved_right": 388,
+      "right": "20251127_openhands_claude-opus-4-5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.02646057482518112,
+        0.030477469895086658
+      ],
+      "left": "20251127_openhands_claude-opus-4-5",
+      "only_left": 26,
+      "only_right": 25,
+      "p": 1.0,
+      "resolved_left": 388,
+      "resolved_right": 387,
+      "right": "20251120_livesweagent_gemini-3-pro-preview",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.006,
+      "interval": [
+        -0.024505204466054222,
+        0.036543039413662416
+      ],
+      "left": "20251120_livesweagent_gemini-3-pro-preview",
+      "only_left": 31,
+      "only_right": 28,
+      "p": 0.7948436539828609,
+      "resolved_left": 387,
+      "resolved_right": 384,
+      "right": "20250804_epam-ai-run-claude-4-sonnet",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.029763660596940498,
+        0.0297636605969405
+      ],
+      "left": "20250804_epam-ai-run-claude-4-sonnet",
+      "only_left": 28,
+      "only_right": 28,
+      "p": 1.0,
+      "resolved_left": 384,
+      "resolved_right": 384,
+      "right": "20250902_atlassian-rovo-dev",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.004,
+      "interval": [
+        -0.025226818072511002,
+        0.033254197624251344
+      ],
+      "left": "20250902_atlassian-rovo-dev",
+      "only_left": 28,
+      "only_right": 26,
+      "p": 0.8919231511047494,
+      "resolved_left": 384,
+      "resolved_right": 382,
+      "right": "20250819_ACoder",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.008,
+      "interval": [
+        -0.02603084612513709,
+        0.04205383937170639
+      ],
+      "left": "20250819_ACoder",
+      "only_left": 39,
+      "only_right": 35,
+      "p": 0.72754708348947,
+      "resolved_left": 382,
+      "resolved_right": 378,
+      "right": "20250901_warp",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.004,
+      "interval": [
+        -0.028188112525690513,
+        0.036202596128857775
+      ],
+      "left": "20250901_warp",
+      "only_left": 34,
+      "only_right": 32,
+      "p": 0.9021585000966993,
+      "resolved_left": 378,
+      "resolved_right": 376,
+      "right": "20250612_trae",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.004,
+      "interval": [
+        -0.02003525510390837,
+        0.028073417238172763
+      ],
+      "left": "20250612_trae",
+      "only_left": 19,
+      "only_right": 17,
+      "p": 0.8679394004284404,
+      "resolved_left": 376,
+      "resolved_right": 374,
+      "right": "20250731_harness_ai",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.028678931964285892,
+        0.0286789319642859
+      ],
+      "left": "20250731_harness_ai",
+      "only_left": 26,
+      "only_right": 26,
+      "p": 1.0,
+      "resolved_left": 374,
+      "resolved_right": 374,
+      "right": "20251103_sonar-foundation-agent_claude-sonnet-4-5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.027971777663283574,
+        0.031980832890144986
+      ],
+      "left": "20251103_sonar-foundation-agent_claude-sonnet-4-5",
+      "only_left": 29,
+      "only_right": 28,
+      "p": 1.0,
+      "resolved_left": 374,
+      "resolved_right": 373,
+      "right": "20250720_Lingxi-v1.5_claude-4-sonnet-20250514",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.029719457099716667,
+        0.029719457099716667
+      ],
+      "left": "20250720_Lingxi-v1.5_claude-4-sonnet-20250514",
+      "only_left": 28,
+      "only_right": 28,
+      "p": 1.0,
+      "resolved_left": 373,
+      "resolved_right": 373,
+      "right": "20250915_JoyCode",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.028472976115686166,
+        0.032481021252049186
+      ],
+      "left": "20250915_JoyCode",
+      "only_left": 30,
+      "only_right": 29,
+      "p": 1.0,
+      "resolved_left": 373,
+      "resolved_right": 372,
+      "right": "20250603_Refact_Agent_claude-4-sonnet",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.03402197106420033,
+        0.03402197106420033
+      ],
+      "left": "20250603_Refact_Agent_claude-4-sonnet",
+      "only_left": 37,
+      "only_right": 37,
+      "p": 1.0,
+      "resolved_left": 372,
+      "resolved_right": 372,
+      "right": "20251015_Prometheus_v1.2.1_gpt5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.006,
+      "interval": [
+        -0.028232051792437943,
+        0.04024072625726663
+      ],
+      "left": "20251015_Prometheus_v1.2.1_gpt5",
+      "only_left": 39,
+      "only_right": 36,
+      "p": 0.8175538505509844,
+      "resolved_left": 372,
+      "resolved_right": 369,
+      "right": "20251103_SalesforceAIResearch_SAGE_OpenHands",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.006,
+      "interval": [
+        -0.0282234971179611,
+        0.040229882653011785
+      ],
+      "left": "20251103_SalesforceAIResearch_SAGE_OpenHands",
+      "only_left": 39,
+      "only_right": 36,
+      "p": 0.8175538505509844,
+      "resolved_left": 369,
+      "resolved_right": 366,
+      "right": "20250522_tools_claude-4-opus",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.028945643030642527,
+        0.032950893529383456
+      ],
+      "left": "20250522_tools_claude-4-opus",
+      "only_left": 31,
+      "only_right": 30,
+      "p": 1.0,
+      "resolved_left": 366,
+      "resolved_right": 365,
+      "right": "20251021_SalesforceAIResearch_SAGE_bash_only",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.006,
+      "interval": [
+        -0.024432697656157628,
+        0.036448423805724564
+      ],
+      "left": "20251021_SalesforceAIResearch_SAGE_bash_only",
+      "only_left": 31,
+      "only_right": 28,
+      "p": 0.7948436539828609,
+      "resolved_left": 365,
+      "resolved_right": 362,
+      "right": "20250522_tools_claude-4-sonnet",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.006,
+      "interval": [
+        -0.02442374524135841,
+        0.036436842490736365
+      ],
+      "left": "20250522_tools_claude-4-sonnet",
+      "only_left": 31,
+      "only_right": 28,
+      "p": 0.7948436539828609,
+      "resolved_left": 362,
+      "resolved_right": 359,
+      "right": "20250807_openhands_gpt5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.040529732877563514,
+        0.04052973287756352
+      ],
+      "left": "20250807_openhands_gpt5",
+      "only_left": 53,
+      "only_right": 53,
+      "p": 1.0,
+      "resolved_left": 359,
+      "resolved_right": 359,
+      "right": "20260901_mini-v2.4.2_gemini-3-5-flash",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.006,
+      "interval": [
+        -0.03582911147790359,
+        0.047808776938185936
+      ],
+      "left": "20260901_mini-v2.4.2_gemini-3-5-flash",
+      "only_left": 58,
+      "only_right": 55,
+      "p": 0.8508699225134496,
+      "resolved_left": 359,
+      "resolved_right": 356,
+      "right": "20250710_bloop",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.031162756281396687,
+        0.031162756281396687
+      ],
+      "left": "20250710_bloop",
+      "only_left": 31,
+      "only_right": 31,
+      "p": 1.0,
+      "resolved_left": 356,
+      "resolved_right": 356,
+      "right": "20250715_qodo_command",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.03397207014785797,
+        0.03397207014785797
+      ],
+      "left": "20250715_qodo_command",
+      "only_left": 37,
+      "only_right": 37,
+      "p": 1.0,
+      "resolved_left": 356,
+      "resolved_right": 356,
+      "right": "20250929_Prometheus_v1.2_gpt5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.0,
+      "interval": [
+        -0.03306216608812201,
+        0.03306216608812201
+      ],
+      "left": "20250929_Prometheus_v1.2_gpt5",
+      "only_left": 35,
+      "only_right": 35,
+      "p": 1.0,
+      "resolved_left": 356,
+      "resolved_right": 356,
+      "right": "20251014_Lingxi_kimi_k2",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.029403432523985126,
+        0.03340539490174722
+      ],
+      "left": "20251014_Lingxi_kimi_k2",
+      "only_left": 32,
+      "only_right": 31,
+      "p": 1.0,
+      "resolved_left": 356,
+      "resolved_right": 355,
+      "right": "20250623_warp",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.02686919609756812,
+        0.030873510939086524
+      ],
+      "left": "20250623_warp",
+      "only_left": 27,
+      "only_right": 26,
+      "p": 1.0,
+      "resolved_left": 355,
+      "resolved_right": 354,
+      "right": "20250611_moatless_claude-4-sonnet-20250514",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.02738974087261377,
+        0.03139321461119826
+      ],
+      "left": "20250611_moatless_claude-4-sonnet-20250514",
+      "only_left": 28,
+      "only_right": 27,
+      "p": 1.0,
+      "resolved_left": 354,
+      "resolved_right": 353,
+      "right": "20250519_trae",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.002,
+      "interval": [
+        -0.028904815655261294,
+        0.032906492844590476
+      ],
+      "left": "20250519_trae",
+      "only_left": 31,
+      "only_right": 30,
+      "p": 1.0,
+      "resolved_left": 353,
+      "resolved_right": 352,
+      "right": "20250515_Refact_Agent",
+      "verdict": "bounded_null"
+    }
+  ],
+  "adjacent_summary": {
+    "bounded_null": 29,
+    "distinguishable": 0,
+    "pairs": 29,
+    "underpowered": 0
+  },
+  "alpha": 0.05,
+  "distinguishable_from_rank_on": 17,
+  "first_distinguishable_rank": 12,
+  "instances": 500,
+  "policy": "an instance not resolved counts as unresolved; one attempt per instance",
+  "source": {
+    "commit": "40f164d5b8f1d249bf95a6df8b74b577fd8e519d",
+    "repository": "SWE-bench/experiments",
+    "split": "evaluation/verified"
+  },
+  "submissions": 135,
+  "top": [
+    {
+      "name": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "rank": 1,
+      "resolved": 396
+    },
+    {
+      "name": "20251215_livesweagent_claude-opus-4-5",
+      "rank": 2,
+      "resolved": 396
+    },
+    {
+      "name": "20250928_trae_doubao_seed_code",
+      "rank": 3,
+      "resolved": 394
+    },
+    {
+      "name": "20251127_openhands_claude-opus-4-5",
+      "rank": 4,
+      "resolved": 388
+    },
+    {
+      "name": "20251120_livesweagent_gemini-3-pro-preview",
+      "rank": 5,
+      "resolved": 387
+    },
+    {
+      "name": "20250804_epam-ai-run-claude-4-sonnet",
+      "rank": 6,
+      "resolved": 384
+    },
+    {
+      "name": "20250902_atlassian-rovo-dev",
+      "rank": 7,
+      "resolved": 384
+    },
+    {
+      "name": "20250819_ACoder",
+      "rank": 8,
+      "resolved": 382
+    },
+    {
+      "name": "20250901_warp",
+      "rank": 9,
+      "resolved": 378
+    },
+    {
+      "name": "20250612_trae",
+      "rank": 10,
+      "resolved": 376
+    },
+    {
+      "name": "20250731_harness_ai",
+      "rank": 11,
+      "resolved": 374
+    },
+    {
+      "name": "20251103_sonar-foundation-agent_claude-sonnet-4-5",
+      "rank": 12,
+      "resolved": 374
+    },
+    {
+      "name": "20250720_Lingxi-v1.5_claude-4-sonnet-20250514",
+      "rank": 13,
+      "resolved": 373
+    },
+    {
+      "name": "20250915_JoyCode",
+      "rank": 14,
+      "resolved": 373
+    },
+    {
+      "name": "20250603_Refact_Agent_claude-4-sonnet",
+      "rank": 15,
+      "resolved": 372
+    },
+    {
+      "name": "20251015_Prometheus_v1.2.1_gpt5",
+      "rank": 16,
+      "resolved": 372
+    },
+    {
+      "name": "20251103_SalesforceAIResearch_SAGE_OpenHands",
+      "rank": 17,
+      "resolved": 369
+    },
+    {
+      "name": "20250522_tools_claude-4-opus",
+      "rank": 18,
+      "resolved": 366
+    },
+    {
+      "name": "20251021_SalesforceAIResearch_SAGE_bash_only",
+      "rank": 19,
+      "resolved": 365
+    },
+    {
+      "name": "20250522_tools_claude-4-sonnet",
+      "rank": 20,
+      "resolved": 362
+    },
+    {
+      "name": "20250807_openhands_gpt5",
+      "rank": 21,
+      "resolved": 359
+    },
+    {
+      "name": "20260901_mini-v2.4.2_gemini-3-5-flash",
+      "rank": 22,
+      "resolved": 359
+    },
+    {
+      "name": "20250710_bloop",
+      "rank": 23,
+      "resolved": 356
+    },
+    {
+      "name": "20250715_qodo_command",
+      "rank": 24,
+      "resolved": 356
+    },
+    {
+      "name": "20250929_Prometheus_v1.2_gpt5",
+      "rank": 25,
+      "resolved": 356
+    },
+    {
+      "name": "20251014_Lingxi_kimi_k2",
+      "rank": 26,
+      "resolved": 356
+    },
+    {
+      "name": "20250623_warp",
+      "rank": 27,
+      "resolved": 355
+    },
+    {
+      "name": "20250611_moatless_claude-4-sonnet-20250514",
+      "rank": 28,
+      "resolved": 354
+    },
+    {
+      "name": "20250519_trae",
+      "rank": 29,
+      "resolved": 353
+    },
+    {
+      "name": "20250515_Refact_Agent",
+      "rank": 30,
+      "resolved": 352
+    }
+  ],
+  "versus_first": [
+    {
+      "difference": 0.0,
+      "distinguishable_after_holm": false,
+      "interval": [
+        -0.024166650015572378,
+        0.024166650015572385
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 18,
+      "only_right": 18,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "rank": 2,
+      "resolved_left": 396,
+      "resolved_right": 396,
+      "right": "20251215_livesweagent_claude-opus-4-5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.004,
+      "distinguishable_after_holm": false,
+      "interval": [
+        -0.027775725907614672,
+        0.03580404582073677
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 33,
+      "only_right": 31,
+      "p": 0.9006532462520331,
+      "p_holm": 1.0,
+      "rank": 3,
+      "resolved_left": 396,
+      "resolved_right": 394,
+      "right": "20250928_trae_doubao_seed_code",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.016,
+      "distinguishable_after_holm": false,
+      "interval": [
+        -0.007990179884713046,
+        0.04021689063064139
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 22,
+      "only_right": 14,
+      "p": 0.2429849540349096,
+      "p_holm": 0.9719398161396384,
+      "rank": 4,
+      "resolved_left": 396,
+      "resolved_right": 388,
+      "right": "20251127_openhands_claude-opus-4-5",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.018,
+      "distinguishable_after_holm": false,
+      "interval": [
+        -0.009813671976036303,
+        0.045992004506412436
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 29,
+      "only_right": 20,
+      "p": 0.2528697301676033,
+      "p_holm": 0.9719398161396384,
+      "rank": 5,
+      "resolved_left": 396,
+      "resolved_right": 387,
+      "right": "20251120_livesweagent_gemini-3-pro-preview",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.024,
+      "distinguishable_after_holm": false,
+      "interval": [
+        -0.00664002794235917,
+        0.05480875389552636
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 36,
+      "only_right": 24,
+      "p": 0.1550019040032606,
+      "p_holm": 0.8020454121846317,
+      "rank": 6,
+      "resolved_left": 396,
+      "resolved_right": 384,
+      "right": "20250804_epam-ai-run-claude-4-sonnet",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.024,
+      "distinguishable_after_holm": false,
+      "interval": [
+        -0.005097124848604303,
+        0.05329776130054675
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 33,
+      "only_right": 21,
+      "p": 0.13367423536410528,
+      "p_holm": 0.8020454121846317,
+      "rank": 7,
+      "resolved_left": 396,
+      "resolved_right": 384,
+      "right": "20250902_atlassian-rovo-dev",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.028,
+      "distinguishable_after_holm": false,
+      "interval": [
+        -0.004546567178596431,
+        0.06069557605072366
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 41,
+      "only_right": 27,
+      "p": 0.11425430684992328,
+      "p_holm": 0.799780147949463,
+      "rank": 8,
+      "resolved_left": 396,
+      "resolved_right": 382,
+      "right": "20250819_ACoder",
+      "verdict": "bounded_null"
+    },
+    {
+      "difference": 0.036,
+      "distinguishable_after_holm": false,
+      "interval": [
+        0.006005444117002663,
+        0.06624513152937499
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 38,
+      "only_right": 20,
+      "p": 0.024746035842440797,
+      "p_holm": 0.19796828673952638,
+      "rank": 9,
+      "resolved_left": 396,
+      "resolved_right": 378,
+      "right": "20250901_warp",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.04,
+      "distinguishable_after_holm": false,
+      "interval": [
+        0.009045554476666058,
+        0.0711946686546404
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 41,
+      "only_right": 21,
+      "p": 0.015134080997447081,
+      "p_holm": 0.13620672897702374,
+      "rank": 10,
+      "resolved_left": 396,
+      "resolved_right": 376,
+      "right": "20250612_trae",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.044,
+      "distinguishable_after_holm": false,
+      "interval": [
+        0.013603879267242137,
+        0.07467121602506359
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 41,
+      "only_right": 19,
+      "p": 0.0062176026593266705,
+      "p_holm": 0.07461123191192004,
+      "rank": 11,
+      "resolved_left": 396,
+      "resolved_right": 374,
+      "right": "20250731_harness_ai",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.044,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.01739800164916291,
+        0.07101819061077796
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 34,
+      "only_right": 12,
+      "p": 0.0016414913408482334,
+      "p_holm": 0.024805071191789832,
+      "rank": 12,
+      "resolved_left": 396,
+      "resolved_right": 374,
+      "right": "20251103_sonar-foundation-agent_claude-sonnet-4-5",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.046,
+      "distinguishable_after_holm": false,
+      "interval": [
+        0.015888644056948356,
+        0.07640481508243847
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 41,
+      "only_right": 18,
+      "p": 0.0037937056353716074,
+      "p_holm": 0.053111878895202504,
+      "rank": 13,
+      "resolved_left": 396,
+      "resolved_right": 373,
+      "right": "20250720_Lingxi-v1.5_claude-4-sonnet-20250514",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.046,
+      "distinguishable_after_holm": false,
+      "interval": [
+        0.012952216043544712,
+        0.0792414194387788
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 47,
+      "only_right": 24,
+      "p": 0.008554538502693427,
+      "p_holm": 0.08554538502693428,
+      "rank": 14,
+      "resolved_left": 396,
+      "resolved_right": 373,
+      "right": "20250915_JoyCode",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.048,
+      "distinguishable_after_holm": false,
+      "interval": [
+        0.014745212210355227,
+        0.0814461906686425
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 48,
+      "only_right": 24,
+      "p": 0.006309827313666047,
+      "p_holm": 0.07461123191192004,
+      "rank": 15,
+      "resolved_left": 396,
+      "resolved_right": 372,
+      "right": "20250603_Refact_Agent_claude-4-sonnet",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.048,
+      "distinguishable_after_holm": false,
+      "interval": [
+        0.016170753557843386,
+        0.08006907550108769
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 45,
+      "only_right": 21,
+      "p": 0.004272405031651673,
+      "p_holm": 0.05554126541147175,
+      "rank": 16,
+      "resolved_left": 396,
+      "resolved_right": 372,
+      "right": "20251015_Prometheus_v1.2.1_gpt5",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.054,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.02153609275987848,
+        0.08669610110032003
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 48,
+      "only_right": 21,
+      "p": 0.0015503169494868645,
+      "p_holm": 0.024805071191789832,
+      "rank": 17,
+      "resolved_left": 396,
+      "resolved_right": 369,
+      "right": "20251103_SalesforceAIResearch_SAGE_OpenHands",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.06,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.027870212197411585,
+        0.0923873132622039
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 49,
+      "only_right": 19,
+      "p": 0.0003579552716131653,
+      "p_holm": 0.00608523961742381,
+      "rank": 18,
+      "resolved_left": 396,
+      "resolved_right": 366,
+      "right": "20250522_tools_claude-4-opus",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.062,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.02918628969767704,
+        0.09504632737700675
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 51,
+      "only_right": 20,
+      "p": 0.00030316341355849296,
+      "p_holm": 0.005456941444052873,
+      "rank": 19,
+      "resolved_left": 396,
+      "resolved_right": 365,
+      "right": "20251021_SalesforceAIResearch_SAGE_bash_only",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.068,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.03853784478393633,
+        0.0978599166187786
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 46,
+      "only_right": 12,
+      "p": 8.219663963332513e-06,
+      "p_holm": 0.00017261294322998277,
+      "rank": 20,
+      "resolved_left": 396,
+      "resolved_right": 362,
+      "right": "20250522_tools_claude-4-sonnet",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.074,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.040924080509013396,
+        0.10730831218384353
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 55,
+      "only_right": 18,
+      "p": 1.6913617102985627e-05,
+      "p_holm": 0.0003382723420597125,
+      "rank": 21,
+      "resolved_left": 396,
+      "resolved_right": 359,
+      "right": "20250807_openhands_gpt5",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.074,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.03864947653228746,
+        0.10948011026765152
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 60,
+      "only_right": 23,
+      "p": 5.973595638605141e-05,
+      "p_holm": 0.0011349831713349768,
+      "rank": 22,
+      "resolved_left": 396,
+      "resolved_right": 359,
+      "right": "20260901_mini-v2.4.2_gemini-3-5-flash",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.08,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.04924109306752676,
+        0.11111272670668437
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 52,
+      "only_right": 12,
+      "p": 4.5666107004454105e-07,
+      "p_holm": 1.324317103129169e-05,
+      "rank": 23,
+      "resolved_left": 396,
+      "resolved_right": 356,
+      "right": "20250710_bloop",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.08,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.047276887755088065,
+        0.11297495263378421
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 56,
+      "only_right": 16,
+      "p": 2.397319809534421e-06,
+      "p_holm": 5.993299523836053e-05,
+      "rank": 24,
+      "resolved_left": 396,
+      "resolved_right": 356,
+      "right": "20250715_qodo_command",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.08,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.047276887755088065,
+        0.11297495263378421
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 56,
+      "only_right": 16,
+      "p": 2.397319809534421e-06,
+      "p_holm": 5.993299523836053e-05,
+      "rank": 25,
+      "resolved_left": 396,
+      "resolved_right": 356,
+      "right": "20250929_Prometheus_v1.2_gpt5",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.08,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.047276887755088065,
+        0.11297495263378421
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 56,
+      "only_right": 16,
+      "p": 2.397319809534421e-06,
+      "p_holm": 5.993299523836053e-05,
+      "rank": 26,
+      "resolved_left": 396,
+      "resolved_right": 356,
+      "right": "20251014_Lingxi_kimi_k2",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.082,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.048609554873615214,
+        0.11560900263588125
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 58,
+      "only_right": 17,
+      "p": 2.1823279653758547e-06,
+      "p_holm": 5.6740527099772225e-05,
+      "rank": 27,
+      "resolved_left": 396,
+      "resolved_right": 355,
+      "right": "20250623_warp",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.084,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.04995548257671812,
+        0.11822975175605172
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 60,
+      "only_right": 18,
+      "p": 1.9730209111390334e-06,
+      "p_holm": 5.3271564600753905e-05,
+      "rank": 28,
+      "resolved_left": 396,
+      "resolved_right": 354,
+      "right": "20250611_moatless_claude-4-sonnet-20250514",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.086,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.050866823290887236,
+        0.12126294609941199
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 63,
+      "only_right": 20,
+      "p": 2.4306979592052185e-06,
+      "p_holm": 5.993299523836053e-05,
+      "rank": 29,
+      "resolved_left": 396,
+      "resolved_right": 353,
+      "right": "20250519_trae",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.088,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.055445130206975675,
+        0.1208160480207984
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 58,
+      "only_right": 14,
+      "p": 1.6464300115968573e-07,
+      "p_holm": 5.1039330359502575e-06,
+      "rank": 30,
+      "resolved_left": 396,
+      "resolved_right": 352,
+      "right": "20250515_Refact_Agent",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.088,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.05403660624081096,
+        0.12215020192284531
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 61,
+      "only_right": 17,
+      "p": 5.663739625418237e-07,
+      "p_holm": 1.5858470951171063e-05,
+      "rank": 31,
+      "resolved_left": 396,
+      "resolved_right": 352,
+      "right": "20250524_openhands_claude_4_sonnet",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.088,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.0549689478918031,
+        0.1212667116237729
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 59,
+      "only_right": 15,
+      "p": 2.553422007441105e-07,
+      "p_holm": 7.660266022323315e-06,
+      "rank": 32,
+      "resolved_left": 396,
+      "resolved_right": 352,
+      "right": "20250610_augment_agent_v1",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.09,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.0582184699129163,
+        0.12208529423558542
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 57,
+      "only_right": 12,
+      "p": 3.7422494875036195e-08,
+      "p_holm": 1.2723648257512306e-06,
+      "rank": 33,
+      "resolved_left": 396,
+      "resolved_right": 351,
+      "right": "20250519_devlo",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.092,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.058121263786271735,
+        0.12606668331626436
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 62,
+      "only_right": 16,
+      "p": 1.5129781377543385e-07,
+      "p_holm": 4.841530040813883e-06,
+      "rank": 34,
+      "resolved_left": 396,
+      "resolved_right": 350,
+      "right": "20250430_zencoder_ai",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.096,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.061295918356717764,
+        0.13084306200747892
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 65,
+      "only_right": 17,
+      "p": 8.953883178712313e-08,
+      "p_holm": 2.9547814489750634e-06,
+      "rank": 35,
+      "resolved_left": 396,
+      "resolved_right": 348,
+      "right": "20250805_openhands-Qwen3-Coder-480B-A35B-Instruct",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.11,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.07725824367178344,
+        0.14297395772033789
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 65,
+      "only_right": 10,
+      "p": 5.154208808246549e-11,
+      "p_holm": 1.8555151709687575e-09,
+      "rank": 36,
+      "resolved_left": 396,
+      "resolved_right": 341,
+      "right": "20250516_cortexa_o3",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.11,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.074943718640679,
+        0.145149118174563
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 70,
+      "only_right": 15,
+      "p": 1.1724940227199809e-09,
+      "p_holm": 4.103729079519933e-08,
+      "rank": 37,
+      "resolved_left": 396,
+      "resolved_right": 341,
+      "right": "20250930_zai_glm4-6",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.126,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.09136038487488664,
+        0.16071607091150586
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 74,
+      "only_right": 11,
+      "p": 1.2888315230163817e-12,
+      "p_holm": 5.1553260920655266e-11,
+      "rank": 38,
+      "resolved_left": 396,
+      "resolved_right": 333,
+      "right": "20250522_sweagent_claude-4-sonnet-20250514",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.128,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.0918576126880654,
+        0.16411750325538216
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 78,
+      "only_right": 14,
+      "p": 6.162186756126439e-12,
+      "p_holm": 2.341630967328047e-10,
+      "rank": 39,
+      "resolved_left": 396,
+      "resolved_right": 332,
+      "right": "20250514_aime_coder",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.134,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.09780408320249762,
+        0.17014595535203747
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 80,
+      "only_right": 13,
+      "p": 6.224673473360482e-13,
+      "p_holm": 2.552116124077798e-11,
+      "rank": 40,
+      "resolved_left": 396,
+      "resolved_right": 329,
+      "right": "20250415_openhands",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.138,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.09979307479527716,
+        0.17601401833727798
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 86,
+      "only_right": 17,
+      "p": 2.80578463449256e-12,
+      "p_holm": 1.0942560074520984e-10,
+      "rank": 41,
+      "resolved_left": 396,
+      "resolved_right": 327,
+      "right": "20250316_augment_agent_v0",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.138,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.09897557510592275,
+        0.17678132405129282
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 88,
+      "only_right": 19,
+      "p": 8.481335709263927e-12,
+      "p_holm": 3.138094212427653e-10,
+      "rank": 42,
+      "resolved_left": 396,
+      "resolved_right": 327,
+      "right": "20250405_amazon-q-developer-agent-20250405-dev",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.138,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.10105322440959158,
+        0.17483310104525807
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 83,
+      "only_right": 14,
+      "p": 4.2224144708722075e-13,
+      "p_holm": 1.7734140777663273e-11,
+      "rank": 43,
+      "resolved_left": 396,
+      "resolved_right": 327,
+      "right": "20250716_openhands_kimi_k2",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.146,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.10928466131334685,
+        0.182582651757768
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 85,
+      "only_right": 12,
+      "p": 1.0431765969668068e-14,
+      "p_holm": 4.69429468635063e-13,
+      "rank": 44,
+      "resolved_left": 396,
+      "resolved_right": 323,
+      "right": "20250117_wandb_programmer_o1_crosscheck5",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.146,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.10885655876105102,
+        0.18298250665958554
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 86,
+      "only_right": 13,
+      "p": 2.288987396986294e-14,
+      "p_holm": 9.842645807041063e-13,
+      "rank": 45,
+      "resolved_left": 396,
+      "resolved_right": 323,
+      "right": "20250503_patchpilot-v1.1-o4-mini",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.15,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.11472679443253708,
+        0.1852215152279728
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 83,
+      "only_right": 8,
+      "p": 7.57684143871343e-17,
+      "p_holm": 3.788420719356715e-15,
+      "rank": 46,
+      "resolved_left": 396,
+      "resolved_right": 321,
+      "right": "20250728_zai_glm4-5",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.158,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.11872534878254032,
+        0.19691407563216606
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 95,
+      "only_right": 16,
+      "p": 7.51963189179686e-15,
+      "p_holm": 3.4590306702265556e-13,
+      "rank": 47,
+      "resolved_left": 396,
+      "resolved_right": 317,
+      "right": "20250206_agentscope",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.16,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.1218091090552463,
+        0.1978916412119832
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 93,
+      "only_right": 13,
+      "p": 4.542762798571598e-16,
+      "p_holm": 2.180526143314367e-14,
+      "rank": 48,
+      "resolved_left": 396,
+      "resolved_right": 316,
+      "right": "20250224_tools_claude-3-7-sonnet",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.164,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.12312162966586715,
+        0.20437882006706776
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 101,
+      "only_right": 19,
+      "p": 1.0754075870962743e-14,
+      "p_holm": 4.731793383223607e-13,
+      "rank": 49,
+      "resolved_left": 396,
+      "resolved_right": 314,
+      "right": "20250110_blackboxai_agent_v1.1",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.164,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.12430304817717448,
+        0.20327485478500829
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 98,
+      "only_right": 16,
+      "p": 1.477416366478582e-15,
+      "p_holm": 6.943856922449336e-14,
+      "rank": 50,
+      "resolved_left": 396,
+      "resolved_right": 314,
+      "right": "20250228_epam-ai-run-claude-3-5-sonnet",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.168,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.1288295306562745,
+        0.2067606286070344
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 98,
+      "only_right": 14,
+      "p": 1.0755959672248348e-16,
+      "p_holm": 5.270420239401691e-15,
+      "rank": 51,
+      "resolved_left": 396,
+      "resolved_right": 312,
+      "right": "20250225_sweagent_claude-3-7-sonnet",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.17,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.13069068899199593,
+        0.2088783692421048
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 99,
+      "only_right": 14,
+      "p": 6.128716537252378e-17,
+      "p_holm": 3.125645433998713e-15,
+      "rank": 52,
+      "resolved_left": 396,
+      "resolved_right": 311,
+      "right": "20241221_codestory_midwit_claude-3-5-sonnet_swe-search",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.184,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.14374942413576064,
+        0.223667905031703
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 106,
+      "only_right": 14,
+      "p": 1.1568090044180289e-18,
+      "p_holm": 6.131087723415553e-17,
+      "rank": 53,
+      "resolved_left": 396,
+      "resolved_right": 304,
+      "right": "20250203_openhands_4x_scaled",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.188,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.14709851588146844,
+        0.22824685406204231
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 109,
+      "only_right": 15,
+      "p": 8.670257546981359e-19,
+      "p_holm": 4.6819390753699336e-17,
+      "rank": 54,
+      "resolved_left": 396,
+      "resolved_right": 302,
+      "right": "20250901_entroPO_R2E_QwenCoder30BA3B_tts",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.19,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.1467025657115359,
+        0.2324646130896455
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 116,
+      "only_right": 21,
+      "p": 4.0351716537553295e-17,
+      "p_holm": 2.0982892599527714e-15,
+      "rank": 55,
+      "resolved_left": 396,
+      "resolved_right": 301,
+      "right": "20250110_learn_by_interact_claude3.5",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.204,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.1624931813732784,
+        0.244696559310421
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 116,
+      "only_right": 14,
+      "p": 3.6437336224421384e-21,
+      "p_holm": 2.0040534923431761e-19,
+      "rank": 56,
+      "resolved_left": 396,
+      "resolved_right": 294,
+      "right": "20250629_deepswerl_r2eagent_tts",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.21,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.1681355502396795,
+        0.2509837357778052
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 119,
+      "only_right": 14,
+      "p": 6.354785400836388e-22,
+      "p_holm": 3.6857755324851047e-20,
+      "rank": 57,
+      "resolved_left": 396,
+      "resolved_right": 291,
+      "right": "20241213_devlo",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.21,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.16775503038161801,
+        0.251336751988703
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 120,
+      "only_right": 15,
+      "p": 1.6097763627609886e-21,
+      "p_holm": 9.014747631461536e-20,
+      "rank": 58,
+      "resolved_left": 396,
+      "resolved_right": 291,
+      "right": "20250410_cortexa",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.22,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.17718231514771088,
+        0.2617900080055837
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 125,
+      "only_right": 15,
+      "p": 8.894877270372545e-23,
+      "p_holm": 5.247977589519802e-21,
+      "rank": 59,
+      "resolved_left": 396,
+      "resolved_right": 286,
+      "right": "20241223_emergent",
+      "verdict": "distinguishable"
+    },
+    {
+      "difference": 0.222,
+      "distinguishable_after_holm": true,
+      "interval": [
+        0.17796404023681026,
+        0.26490371932006873
+      ],
+      "left": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "only_left": 129,
+      "only_right": 18,
+      "p": 7.04568339902408e-22,
+      "p_holm": 4.0160395374437256e-20,
+      "rank": 60,
+      "resolved_left": 396,
+      "resolved_right": 285,
+      "right": "20241208_gru",
+      "verdict": "distinguishable"
+    }
+  ]
+}
