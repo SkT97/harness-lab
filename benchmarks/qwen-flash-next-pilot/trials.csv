@@ -1,0 +1,7 @@
+entry_id,task_id,language,variant,repeat,passed,wall_s,tokens_input,tokens_prompt_total,tokens_output,network_error,infra_error,timed_out
+1,hamming,Python,pi,1,true,76.6,5119,46816,3873,false,false,false
+2,hamming,Python,opencode,1,true,65,4193,22116,1420,false,false,false
+3,raindrops,Java,opencode,1,true,60.7,3587,25839,1235,false,false,false
+4,raindrops,Java,pi,1,true,92,3154,57738,5222,false,false,false
+5,luhn,TypeScript,pi,1,true,85.7,2894,36308,5717,false,false,false
+6,luhn,TypeScript,opencode,1,true,67.6,2899,33628,2055,false,false,false

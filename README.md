@@ -106,6 +106,13 @@ overhead and checks that both paths deliver the fix. In one Windows run on
 November 18, 2026, both paths passed all nine pairs. The mean was 0.425 s
 for direct execution and 3.371 s for hx, including its clone and acceptance.
 
+## Public benchmark example
+
+The [Qwen 3.8 Flash Next pilot](benchmarks/qwen-flash-next-pilot/README.md)
+compares Pi and OpenCode on three public tasks in Python, Java and TypeScript.
+It includes the six measured observations and the command to reproduce the
+paired report.
+
 ## Verification
 
 The repository includes [synthetic observations](examples/synthetic_runs.csv) for a reproducible walkthrough of validation, exclusions, and matching by task and repeat.
@@ -150,4 +157,4 @@ Small paired samples, selection conditional on completion and reused campaign la
 
 ## License
 
-[Apache-2.0](LICENSE). The included CSV is synthetic.
+[Apache-2.0](LICENSE). The offline demo uses synthetic data. Measured observations are documented in the linked pilot.

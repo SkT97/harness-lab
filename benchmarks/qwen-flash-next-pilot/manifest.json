@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-18",
+  "task_source": "https://github.com/exercism/problem-specifications",
+  "source_revision": "4812c213a2647e2034ad5ac78155ce9265cdd171",
+  "canonical_data_sha256": {
+    "hamming": "c932d8511912c5ca2cc5a15550a266436c637d8c2af4f3a055173808b0fb0086",
+    "raindrops": "4628e229cd1c6d916be07a4315e9e2da02160f35e3b28658a6bd47225d284fc5",
+    "luhn": "fa4147c4efbbc47f3da9dd05b5b33338332bb5908be286dc20d215268dd4c48b"
+  },
+  "model_requested": "Qwen3.8-Flash-Next",
+  "reasoning": "xhigh",
+  "python": "Python 3.12.14",
+  "java": "javac 23.0.2",
+  "node": "v26.13.1",
+  "operating_system": "Windows",
+  "planned_trials": 6,
+  "attempts_per_task_and_harness": 1,
+  "profiles": {
+    "pi": {
+      "harness": "Pi",
+      "version": "1.1.0",
+      "context": 131072,
+      "max_output": 32768
+    },
+    "opencode": {
+      "harness": "OpenCode",
+      "version": "2.0.29",
+      "context": 131072,
+      "max_output": 32768
+    }
+  },
+  "profile_order": {
+    "hamming": [
+      "pi",
+      "opencode"
+    ],
+    "raindrops": [
+      "opencode",
+      "pi"
+    ],
+    "luhn": [
+      "pi",
+      "opencode"
+    ]
+  }
+}
